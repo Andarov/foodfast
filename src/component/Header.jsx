@@ -7,7 +7,7 @@ const Header = () => {
                     <h1 className="text-3xl font-bold md:text-4xl">Food<span className="text-yellow-600">Fast</span></h1>
                 </a>
 
-                <nav>
+                <nav className="hidden md:block">
                     <ul className="flex space-x-5">
                         <li>
                             <a className="text-lg font-medium text-yellow-600" href="#">Bosh sahifa</a>
